@@ -1,0 +1,126 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Jost", sans-serif;
+}
+.main{
+    background-color: #F5ECDB;
+    height: 40rem;
+}
+.drop{
+    z-index: 999;
+    position: relative;
+}
+.mh{
+    padding: 1rem;
+    
+}
+.c1r1{
+
+}
+.himg{
+    
+}
+
+.c1r1 h4{
+    color: #f26200;
+    font-size: 1.3rem;
+    
+}
+.c1col2{
+    
+}
+.c1col2 a{
+    color:#757575;
+    font-weight: 400;
+    font-size: 17px;
+}
+.c2r2{
+
+}
+.c2r2 h1{
+    color: #f26200;
+    font-size: 4rem;
+    font-weight: 700;
+}
+.c2r2 button{
+    background-color: #f26200;
+    padding: 1.5rem;
+    border: none;
+
+}
+.c3r3{
+
+}
+.c3r3 h3{
+    font-size: 20px;
+    font-weight: 400;
+}
+.c3r3 p{
+    font-size: 17px;
+    font-weight: 300;
+}
+.c4r4{
+
+}
+.c4r4 h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.c5r5{
+
+}
+.c5r5 h2{
+    font-size: 2rem;
+    font-weight: 400;
+}
+.c6r6{
+    
+
+}
+.c6col1{
+    background-color: #F5ECDB;
+
+}
+.c6col1 h3{
+    font-size: 18px;
+    color: #f26200;
+    font-weight: 700;
+}
+.c6col1 p{
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+}
+.c6col1 img{
+    width: 65px;
+}
+
+.c8r8{
+
+}
+.c8col1{
+
+}
+.c8col1 h4{
+    color: #f26200;
+    font-size: 1.2rem;
+
+}
+.c8col1 p{
+    color: #757575;
+
+}
+.c8col1 img{
+    width: 13%;
+
+}
+
+.c8col2{
+    
+}
+.c8col2 a{
+    color: #757575;
+}

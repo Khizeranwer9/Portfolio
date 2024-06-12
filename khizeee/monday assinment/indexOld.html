@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .heading {
+            text-align: center;
+        }
+        .formContainer {
+            width: 500px;
+            margin: auto;
+            padding: 6px;
+         }
+         .inputStyle {
+            width: 100%;
+            margin-bottom: 10px;
+            border: 1px solid gray;
+
+         }
+         .textarea {
+            text-align: left; 
+            width: 100%;
+            height: 80px;
+         }
+         .selectstyle {
+            width: 100%;
+         }
+         #btn {
+            background-color: green;
+             color: aliceblue; 
+             border: none; 
+             padding: 5px 10px;
+            border-radius: 5px;
+         }
+         body{
+            background-color: grey;
+         }
+         
+    </style>
+</head>
+<body>
+    <h1 class="heading">HTML Assignment</h1>
+    <form  class="formContainer" >
+    <label for="full name">Full Name:</label>
+    <input class="inputStyle" type="text" name="full name" id="full name">
+    <label for="Email">Email:</label>
+    <input class="inputStyle"  type="text" name="Email" id="Email">
+    <label for="Password">Password:</label>
+    <input class="inputStyle" type="Password" name="Password" id="Password">
+    <p>Gender:</p>
+    <input type="radio" name="Gender" id="Male" value="Male">
+    <label for="Male">Male</label>
+    <input type="radio" name="Gender" id="Female" value="Female">
+    <label for="Female">Female</label>
+    <input type="radio" name="Gender" id="Others" value="Others">
+    <label for="Others">Others</label>
+    <p>Interests:</p>
+    <input type="checkbox" id="coding" name="interest" value="coding">
+    <label for="Coding">Coding</label>
+    <input type="checkbox" id="Reading" name="interest" value="Music">
+    <label for="Reading">Reading</label>
+    <input type="checkbox" id="Music" name="interest" value="Music">
+    <label for="Music">Music</label>
+    <p>Message:</p>
+    <textarea class="textarea"  name="Message" id="Message" cols="30" rows="10"></textarea>
+    <P>Country:</P>
+    <select class="selectstyle" name="Country" id="Country">
+        <option value="select country">Select Country</option>
+       <option value="pakistan">Pakistan</option>
+       <option value="china">China</option>
+       <option value="india">India</option>
+       <option value="Iran">Iran</option>
+       </select>
+    <p>Upload file:</p>
+  <input type="file" id="myfile" name="myfile"><br><br>
+  <div style="text-align: center;">
+  <input id="btn" type="button" value="Submit">
+</div>
+  
+</form>
+</body>
+</html>
